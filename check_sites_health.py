@@ -51,7 +51,7 @@ def get_domain_expiration_check(urls_list, delta_time):
                 expiration_urls_list[url] = 'Expiration check passed'
             else:
                 expiration_urls_list[url] = 'Expiration check not passed'
-        except:
+        except TypeError:
             expiration_urls_list[url] = 'Cant pass expiration check'
     return expiration_urls_list
 
