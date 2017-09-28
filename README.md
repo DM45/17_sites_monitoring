@@ -15,7 +15,7 @@ pip install -r requirements.txt # alternatively try pip3
 ```bash
 python check_sites_health.py
 ```
-Then follow instruction.
+> Follow instruction.
 
 # Output
 
